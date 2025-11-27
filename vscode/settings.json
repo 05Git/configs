@@ -4,7 +4,7 @@
         "editor.defaultColorDecorators": "never",
         "editor.formatOnType": false,
         "editor.wordBasedSuggestions": "off",
-        "editor.wordWrapColumn": 69,
+        "editor.wordWrapColumn": 80,
         "editor.wordWrap": "wordWrapColumn"
     }
 }
