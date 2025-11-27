@@ -1,10 +1,10 @@
 {
     "[python]": {
-        "diffEditor.ignoreTrimWhitespace": false,
+        "diffEditor.ignoreTrimWhitespace": true,
         "editor.defaultColorDecorators": "never",
         "editor.formatOnType": false,
         "editor.wordBasedSuggestions": "off",
-        "editor.wordWrapColumn": 80,
+        "editor.wordWrapColumn": 69,
         "editor.wordWrap": "wordWrapColumn"
     }
 }
