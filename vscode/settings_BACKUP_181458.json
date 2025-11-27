@@ -1,0 +1,14 @@
+{
+    "[python]": {
+        "diffEditor.ignoreTrimWhitespace": false,
+        "editor.defaultColorDecorators": "never",
+        "editor.formatOnType": false,
+        "editor.wordBasedSuggestions": "off",
+<<<<<<< HEAD
+        "editor.wordWrapColumn": 69,
+=======
+        "editor.wordWrapColumn": 42,
+>>>>>>> bad_branch
+        "editor.wordWrap": "wordWrapColumn"
+    }
+}
