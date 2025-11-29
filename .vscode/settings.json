@@ -1,0 +1,24 @@
+{
+    "ruff.lineLength": 80,
+    "[python]": {
+        "diffEditor.ignoreTrimWhitespace": false,
+        "editor.defaultColorDecorators": "never",
+        "editor.formatOnType": false,
+        "editor.wordBasedSuggestions": "off",
+        "editor.wordWrapColumn": 80,
+        "editor.wordWrap": "wordWrapColumn",
+        "editor.formatOnSave": true,
+        "editor.defaultEditor": "charliemarsh.ruff",
+        "editor.codeActionsOnSave": {
+            "source.fixAll": "explicit",
+            "source.organizeImports": "explicit"
+        }
+    },
+    "notebook.formatOnSave.enabled": true,
+    "notebook.defaultEditor": "charliemarsh.ruff",
+    "notebook.codeActionsOnSave": {
+        "source.fixAll": "explicit",
+        "source.organizeImports": "explicit"
+    },
+    "notebook.wordWrap": "off"
+}
