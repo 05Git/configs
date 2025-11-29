@@ -1,1 +1,1 @@
-These are useful config files for various editors.
+Configs and dotfiles for code editors.
