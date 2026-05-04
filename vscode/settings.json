@@ -45,10 +45,21 @@
     "jupyter.debugJustMyCode": false,
     "debugpy.debugJustMyCode": false,
     "git.openRepositoryInParentFolders": "never",
-    "workbench.colorTheme": "Quiet Light",
+    "workbench.colorTheme": "Doom Emacs",
     "workbench.activityBar.location": "top",
     "makefile.configureOnOpen": false,
     "git.suggestSmartCommit": false,
     "workbench.editor.showTabs": "single",
     "editor.minimap.enabled": false,
+    "C_Cpp.intelliSenseEngine": "disabled",
+    "clangd.arguments": [
+        "--clang-tidy",
+        "--completion-style=detailed",
+        "--header-insertion=iwyu",
+        "--compile-commands-dir=${workspaceFolder}/build"
+    ],
+    "clangd.path": "/home/oscar/.config/Code/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/22.1.0/clangd_22.1.0/bin/clangd",
+    "zenMode.showTabs": "single",
+    "chat.disableAIFeatures": true,
+    "editor.cursorSurroundingLines": 100,
 }
