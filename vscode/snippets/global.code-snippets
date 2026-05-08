@@ -1,0 +1,29 @@
+{
+	"c_header_boilerplate": {
+		"prefix": "hbp",
+		"body": [
+			"#ifndef ${1:PLACEHOLDER_H}",
+			"#define ${1:PLACEHOLDER_H}",
+			"",
+			"$0",
+			"",
+			"#endif"
+		]
+	},
+	"struct_boilerplate": {
+		"prefix": "stpb",
+		"body": [
+			"typedef struct {",
+			"    $0",
+			"} ${1:StructName};"
+		]
+	},
+	"typedef_boilerplate": {
+		"prefix": "tdbp",
+		"body": [
+			"typedef ${1:placeholder} {",
+			"    $0",
+			"} ${2:Name};"
+		]
+	}
+}
