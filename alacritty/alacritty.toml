@@ -2,6 +2,7 @@
 FOO = "bar"
 [window]
 dimensions = { columns = 100, lines = 50 }
+padding = { x = 20, y = 20 }
 decorations = "None"
 opacity = 0.8
 startup_mode = "Maximized"
@@ -20,3 +21,7 @@ vi_mode_style = { shape = "Block", blinking = "On" }
 thickness = 0.5
 [mouse]
 hide_when_typing = true
+[keyboard]
+bindings = [
+    { key = "W", mods = "Control|Shift", action = "Quit" },
+]
