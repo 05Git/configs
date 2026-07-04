@@ -1,16 +1,16 @@
 [env]
 FOO = "bar"
 [window]
-dimensions = { columns = 100, lines = 50 }
-padding = { x = 20, y = 20 }
-decorations = "None"
-opacity = 0.8
-startup_mode = "Maximized"
+dimensions = { columns = 180, lines = 40 }
+position = { x = 40, y = 40 }
+padding = { x = 10, y = 10 }
+decorations = "Full"
+opacity = 1
+startup_mode = "Windowed"
 [font]
-normal = { family = "0xProto Nerd Font", style = "regular" }
-size = 22 
+normal = { family = "0xProto Nerd Font", style = "Regular" }
 [colors]
-primary = { foreground = "#d8d8d8", background = "#241D3B" }
+primary = { foreground = "#d8d8d8", background = "#211a40" }
 cursor = { text = "CellBackground", cursor = "CellForeground" }
 vi_mode_cursor = { text = "CellBackground", cursor = "CellForeground" }
 transparent_background_colors = true
