@@ -1,8 +1,8 @@
 [env]
 FOO = "bar"
 [window]
-dimensions = { columns = 180, lines = 57 }
-position = { x = 240, y = 40 }
+dimensions = { columns = 210, lines = 57 }
+position = { x = 100, y = 40 }
 padding = { x = 5, y = 5 }
 decorations = "Full"
 opacity = 1
