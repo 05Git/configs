@@ -9,3 +9,5 @@ vim.opt.tabstop = 4         -- <tab> displays as 4 spaces
 vim.opt.shiftwidth = 4      -- auto-indent to 4 spaces
 vim.opt.softtabstop = 4     -- spaces inserted/removed per <tab>/<bs>
 vim.opt.expandtab = true    -- convert tabs to spaces
+
+vim.opt.scrolloff = 8       -- minimum 8 lines above/below cursor
