@@ -1,13 +1,12 @@
 return {
     {
-	"nvim-telescope/telescope-fzf-native.nvim",
-	build = "cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release --target install"
+        "nvim-telescope/telescope-fzf-native.nvim",
+        build = "make"
     },
     {
         "nvim-telescope/telescope.nvim", version="*",
         dependencies = {
             "nvim-lua/plenary.nvim",
---	    "nvim-telescope/teleascope-fzf-native.nvim"
         },
         opts = function(_, opts)
             opts.extensions = opts.extensions or {}
