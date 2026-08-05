@@ -14,5 +14,7 @@ return {
             -- better deal with markdown code blocks
             markdown = true,
         },
-    }
+    },
+    { "nvim-mini/mini.splitjoin",
+    opts = {}}
 }
