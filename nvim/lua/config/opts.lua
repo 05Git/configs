@@ -1,6 +1,9 @@
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
+
 vim.g.netrw_liststyle = 3 -- tree-style netrw dir listing
+vim.g.netrw_altv = true -- open new panes on the right
+vim.g.netrw_alto = true -- open new panes below the current one
 
 vim.opt.number = true -- absolute numbers
 vim.opt.relativenumber = true -- relative numbers
