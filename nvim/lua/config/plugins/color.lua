@@ -9,10 +9,10 @@ return {
         flavour = "frappe", -- latte = light, frappe/macchiato/mocha = dark
         no_italic = true, -- annnoying to look at
         integrations = {
-          nvimtree = true
-        }
+          nvimtree = true,
+        },
       })
       vim.cmd.colorscheme("catppuccin-mocha")
-    end
-  }
+    end,
+  },
 }
