@@ -10,7 +10,6 @@
         "python": false
     },
     "terminal.integrated.suggest.enabled": false,
-    "editor.wordWrap": "on",
     "editor.largeFileOptimizations": false,
     "zenMode.hideLineNumbers": false,
     "zenMode.centerLayout": true,
@@ -54,12 +53,27 @@
         "--clang-tidy",
         "--completion-style=detailed",
         "--header-insertion=iwyu",
-        "--compile-commands-dir=${workspaceFolder}/build"
+        "--compile-commands-dir=${workspaceFolder}/build",
+        "--query-driver=/usr/bin/g++,/usr/bin/gcc,/usr/bin/clang++"
     ],
     "clangd.path": "c:\\Users\\Razer\\AppData\\Roaming\\Code\\User\\globalStorage\\llvm-vs-code-extensions.vscode-clangd\\install\\22.1.6\\clangd_22.1.6\\bin\\clangd.exe",
     "zenMode.showTabs": "single",
     "chat.disableAIFeatures": true,
-    "editor.cursorSurroundingLines": 100,
     "workbench.colorTheme": "Alt Catppuccin Latte",
     "lldb.suppressUpdateNotifications": true,
+    "editor.cursorSurroundingLines": 8,
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },
+    "[cpp]": {
+        "editor.wordBasedSuggestions": "off",
+        "editor.semanticHighlighting.enabled": true,
+        "editor.stickyScroll.defaultModel": "foldingProviderModel",
+        "editor.suggest.insertMode": "replace"
+    },
+    "catppuccin.italicKeywords": false,
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "workbench.browser.searchEngine": "duckduckgo"
 }
