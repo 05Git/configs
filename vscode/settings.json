@@ -10,7 +10,6 @@
         "python": false
     },
     "terminal.integrated.suggest.enabled": false,
-    "editor.wordWrap": "on",
     "editor.largeFileOptimizations": false,
     "zenMode.hideLineNumbers": false,
     "zenMode.centerLayout": true,
@@ -45,21 +44,35 @@
     "jupyter.debugJustMyCode": false,
     "debugpy.debugJustMyCode": false,
     "git.openRepositoryInParentFolders": "never",
-    "workbench.colorTheme": "Doom Emacs",
+    "workbench.colorTheme": "Catppuccin Latte",
     "workbench.activityBar.location": "top",
     "makefile.configureOnOpen": false,
     "git.suggestSmartCommit": false,
-    "workbench.editor.showTabs": "single",
     "editor.minimap.enabled": false,
     "C_Cpp.intelliSenseEngine": "disabled",
     "clangd.arguments": [
         "--clang-tidy",
         "--completion-style=detailed",
         "--header-insertion=iwyu",
-        "--compile-commands-dir=${workspaceFolder}/build"
+        "--compile-commands-dir=${workspaceFolder}/build",
+        "--query-driver=/usr/bin/g++,/usr/bin/gcc,/usr/bin/clang++"
     ],
     "clangd.path": "/home/oscar/.config/Code/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/22.1.0/clangd_22.1.0/bin/clangd",
     "zenMode.showTabs": "single",
     "chat.disableAIFeatures": true,
-    "editor.cursorSurroundingLines": 100,
+    "editor.cursorSurroundingLines": 8,
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },
+    "[cpp]": {
+        "editor.wordBasedSuggestions": "off",
+        "editor.semanticHighlighting.enabled": true,
+        "editor.stickyScroll.defaultModel": "foldingProviderModel",
+        "editor.suggest.insertMode": "replace"
+    },
+    "catppuccin.italicKeywords": false,
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "workbench.browser.searchEngine": "duckduckgo",
 }

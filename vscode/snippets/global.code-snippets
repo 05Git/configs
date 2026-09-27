@@ -1,6 +1,6 @@
 {
 	"c_header_boilerplate": {
-		"prefix": "hbp",
+		"prefix": "ifnd",
 		"body": [
 			"#ifndef ${1:PLACEHOLDER_H}",
 			"#define ${1:PLACEHOLDER_H}",
@@ -11,7 +11,7 @@
 		]
 	},
 	"struct_boilerplate": {
-		"prefix": "stpb",
+		"prefix": "typd~",
 		"body": [
 			"typedef struct {",
 			"    $0",
@@ -19,7 +19,7 @@
 		]
 	},
 	"typedef_boilerplate": {
-		"prefix": "tdbp",
+		"prefix": "typd",
 		"body": [
 			"typedef ${1:placeholder} {",
 			"    $0",
