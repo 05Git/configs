@@ -217,5 +217,15 @@
     {
         "key": "ctrl+k ctrl+\\",
         "command": "-workbench.action.splitEditorUp"
+    },
+    {
+        "key": "ctrl+p",
+        "command": "list.focusUp",
+        "when": "listFocus && !inputFocus && !treestickyScrollFocused"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "list.focusDown",
+        "when": "listFocus && !inputFocus && !treestickyScrollFocused"
     }
 ]
