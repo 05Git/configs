@@ -7,6 +7,12 @@ vim.keymap.set("n", "<Leader>ep", function()
 	require("mini.files").open(vim.fn.getcwd(), true)
 end, { desc = "Open current pwd w/mini.files" })
 
+vim.keymap.set("n", "<Leader>bd", ":bd<CR>", { desc = "Delete buffer", silent = true })
+vim.keymap.set("n", "<Leader>tn", ":tabnew", { desc = "Open new tab", silent = true })
+vim.keymap.set("n", "<Leader>tc", ":tabclose", { desc = "Close tab", silent = true })
+vim.keymap.set("n", "<Leader>to", ":tabonly", { desc = "Close other tabs", silent = true })
+vim.keymap.set("n", "<Leader>t,", ":tabmove -", { desc = "Move tab left", silent = true })
+vim.keymap.set("n", "<Leader>t.", ":tabmove +", { desc = "Move tab right", silent = true })
 -- lsp
 vim.keymap.set("n", "grd", vim.lsp.buf.definition, { desc = "LSP Definition" })
 vim.keymap.set("n", "grs", vim.lsp.buf.signature_help, { desc = "LSP Signature Help" })
