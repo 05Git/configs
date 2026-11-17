@@ -13,9 +13,14 @@ vim.keymap.set("n", "<Leader>tc", ":tabclose<CR>", { desc = "Close tab", silent 
 vim.keymap.set("n", "<Leader>to", ":tabonly<CR>", { desc = "Close other tabs", silent = true })
 vim.keymap.set("n", "<Leader>t,", ":tabmove -<CR>", { desc = "Move tab left", silent = true })
 vim.keymap.set("n", "<Leader>t.", ":tabmove +<CR>", { desc = "Move tab right", silent = true })
+
 -- lsp
 vim.keymap.set("n", "grd", vim.lsp.buf.definition, { desc = "LSP Definition" })
 vim.keymap.set("n", "grs", vim.lsp.buf.signature_help, { desc = "LSP Signature Help" })
 vim.keymap.set("n", "grT", vim.lsp.buf.typehierarchy, { desc = "LSP Type-Hierarchy" })
 vim.keymap.set("n", "grS", vim.lsp.buf.workspace_symbol, { desc = "LSP Workspace Symbols" })
 vim.keymap.set("n", "grD", vim.lsp.buf.workspace_diagnostics, { desc = "LSP Workspace Diagnostics" })
+
+-- Move selected lines up/down in visual mode
+vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
+vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
