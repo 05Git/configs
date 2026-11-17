@@ -17,3 +17,5 @@ vim.opt.softtabstop = 4 -- spaces inserted/removed per <tab>/<bs>
 vim.opt.expandtab = true -- convert tabs to spaces
 
 vim.opt.scrolloff = 8 -- minimum 8 lines above/below cursor
+
+vim.opt.showbreak = "↳ " -- indicate line wraps
